@@ -1,15 +1,9 @@
-Introdução
-
-O que é ser Dev, programar e áreas de atuação
-
-Internet
-
-Programas e Arquivos
-
-Front-end e Back-end
-
-Tecnologias Front-end e Back-end
-
-Ambiente Dev
-
-Medos comuns aos iniciantes em programação
+- **Primeiros passos**
+    - Introdução
+    - O que é ser Dev, programar e áreas de atuação
+    - Internet
+    - Programas e Arquivos
+    - Front-end e Back-end
+    - Tecnologias Front-end e Back-end
+    - Ambiente Dev
+    - Medos comuns aos iniciantes em programação
