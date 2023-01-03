@@ -7,3 +7,12 @@
     - Tecnologias Front-end e Back-end
     - Ambiente Dev
     - Medos comuns aos iniciantes em programação
+
+- **Aprendendo a aprender**
+    - Intro
+    - Planejamento e Organização
+    - Aprendizado e metodologia PARE
+    - Aprendizado na prática
+    - Como estudar de maneira eficiente
+    - Técnicas de estudo em programação
+    - Revisão e finalização
