@@ -1,0 +1,37 @@
+/*Cada tag pussui um Formato de caixa
+	Elementos da caixa:
+	Padding -> Preenchimento interno
+  Border -> Borda
+  margin -> Espaçamento externo
+
+	Por padrão a maioria das tags são display block, ou seja,
+	colocam uma caixa abaixo da outra.
+  div -> por padrão é display block
+  span -> por padrão é display inline
+*/
+
+header {
+  border: 1px solid red;
+
+  padding: 60px;
+}
+
+h1 {
+  border: 1px solid green;
+
+  height: 60px;
+
+  display: inline;
+}
+
+p {
+  margin: 20px;
+
+  border: 1px solid purple;
+
+  display: inline;
+}
+
+span {
+  border: 1px solid pink;
+}
