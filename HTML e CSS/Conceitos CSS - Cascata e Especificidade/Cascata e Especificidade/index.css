@@ -1,0 +1,18 @@
+/* Setetor seguido de chaves */
+/*background -> propriedade
+  black -> valor*/
+/* usando somente da tag -> Cascata
+Usando de .(class) ou #(id) -> Especificidade*/
+/* Posso optar por usar o seletor antes ou não. Ex.: p.qualquer ou .qualquer*/
+/* Ordem de prioridade -> ID, Class, seletor */
+p {  
+  color: red;
+}
+
+p#unico-1 {
+  color: blue;
+}
+
+.qualquer {
+  color: green;
+}
