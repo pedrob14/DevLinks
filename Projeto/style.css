@@ -5,7 +5,7 @@ Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
   margin: 0;
   padding: 0;
   /*Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
-  box-sizing: border-box; /*Medida do tamanho da caixa. Sendo medida a partir da borda
+  box-sizing: border-box; /*Medida do tamanho da caixa. Sendo medida a partir da borda*/
 }
 
 body {
@@ -25,16 +25,18 @@ Body * {
 
 div#container {
   width: 360px;
-  border: 1px solid red;
-  margin: auto;
-  /* Ou
-  margin-right: auto;
-  margin-left: auto;
-  */
+  /*border: 1px solid red;*/
+  margin: 56px auto 0px;
+  /*- Ele pega a 1ª propriedade para Top (Cima)
+  - Ele pega a 2ª propriedade para Right e Left (Direita e Esquerda)
+  - Ele pega a 3ª propriedade para Bottom (Baixo) */
+  /* margin/padding: x x x x 
+  Ele pega as 4 propriedades, na ordem como o relógio: Top, Right, Botton e Left*/
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 
 /*Ou div#profile*/
@@ -47,4 +49,5 @@ div#container {
 #profile p {
   font-weight: 500;
   line-height: 24px;
+  margin-top: 8px;
 }
