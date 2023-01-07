@@ -1,12 +1,21 @@
+/* *(Asterístico) -> Seletor universal. Vai aplicar para todos os elementos
+Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
+
+* {
+  margin: 0;
+  padding: 0;
+  /*Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
+  box-sizing: border-box; /*Medida do tamanho da caixa. Sendo medida a partir da borda
+}
+
 body {
-  /*
+  /* background: color image repeat position/size */
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  /* OU
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover; */
-
-  /* background: color image repeat position/size */
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 /* *(Asterístico) -> Seletor universal. Vai aplicar para todos os elementos dentro do body*/
 Body * {
