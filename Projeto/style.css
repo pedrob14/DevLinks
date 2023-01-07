@@ -13,4 +13,9 @@ div#container {
   width: 360px;
   height: 712px;
   border: 1px solid red;
+  margin: auto;
+  /* Ou
+  margin-right: auto;
+  margin-left: auto;
+  */
 }
