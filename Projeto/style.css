@@ -11,11 +11,17 @@ body {
 
 div#container {
   width: 360px;
-  height: 712px;
   border: 1px solid red;
   margin: auto;
   /* Ou
   margin-right: auto;
   margin-left: auto;
   */
+}
+
+/*Ou div#profile*/
+#profile img {
+  /*No css geralmente não precisa definir a altura (height)*/
+  width: 112px;
+  margin: auto;
 }
