@@ -8,6 +8,11 @@ body {
   /* background: color image repeat position/size */
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
+/* *(Asterístico) -> Seletor universal. Vai aplicar para todos os elementos dentro do body*/
+Body * {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
 
 div#container {
   width: 360px;
@@ -28,4 +33,9 @@ div#container {
   /*No css geralmente não precisa definir a altura (height)
   Elementos inline (como img) não é possível utilizar margin: auto. Somente elementos block são capazes de usar margin: auto*/
   width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
 }
