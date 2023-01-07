@@ -19,9 +19,13 @@ div#container {
   */
 }
 
+#profile {
+  text-align: center;
+}
+
 /*Ou div#profile*/
 #profile img {
-  /*No css geralmente não precisa definir a altura (height)*/
+  /*No css geralmente não precisa definir a altura (height)
+  Elementos inline (como img) não é possível utilizar margin: auto. Somente elementos block são capazes de usar margin: auto*/
   width: 112px;
-  margin: auto;
 }
