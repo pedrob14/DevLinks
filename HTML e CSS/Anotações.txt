@@ -18,7 +18,7 @@
     - Reset de CS
     - Entendendo margin e paddin
     - Criando lista em HTML
-    - Conhecendo display fle
+    - Conhecendo display flex
     - Alinhando elementos com flex
     - Aplicando propriedades modernas
     - Ajustando fontes dos links
