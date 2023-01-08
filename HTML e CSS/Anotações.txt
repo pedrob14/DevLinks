@@ -1,0 +1,38 @@
+- **HTML e CSS**
+    - Introdução ao HTML
+    - Introdução ao CSS
+    - Conceitos CSS - Cascata e Especificidade
+    - CSS Conceitos - Box Model
+    - Configurando o VSCode
+    - Iniciando o projeto e o HTML
+    - Abrindo o projeto na WEB
+    - Adicionando o arquivo CSS
+    - Exportando a imagem de fundo
+    - Aplicando o background no projeto
+    - As caixas do HTML e CSS na prática
+    - Centralizando uma caix
+    - Adicionando a imagem de perfi
+    - Estilizando a imagem de Perfil
+    - Display none inline e block e alinhamento de elementos inline
+    - Adicionando fontes e estilos aos textos
+    - Reset de CS
+    - Entendendo margin e paddin
+    - Criando lista em HTML
+    - Conhecendo display fle
+    - Alinhando elementos com flex
+    - Aplicando propriedades modernas
+    - Ajustando fontes dos links
+    - Alterando propriedades com pseudo-selector hover
+    - Analisando o código com a ferramenta do desenvolver DevToo
+    - Adicionando ícones
+    - Estilizando os ícones sociai
+    - Ajustando os links sociais
+    - Criando o rodapé
+    - Iniciando o light mode
+    - Ajustes de light mode
+    - Criando o HTML do botao switch e conhecendo o svg
+    - Estilizando o botao e adicionando variação light mode
+    - Estilizando o track
+    - Posicionando elementos de maneira absoluta na página
+    - Masterizando alinhamentos e alinhando posicionamentos absolutos
+    - Posicionando o elemento na troca do light para o dark mode
