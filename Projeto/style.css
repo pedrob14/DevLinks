@@ -72,8 +72,16 @@ ul li a {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px; /* Arredondamento de borda*/
 
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px); /* Borramento */
 
   text-decoration: none; /*Retira o sublinhado do link*/
   font-weight: 500;
+
+  transition: background 0.2s;
+}
+
+/* pseudo-selector */
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
 }
