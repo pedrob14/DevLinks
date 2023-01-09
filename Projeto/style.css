@@ -73,4 +73,7 @@ ul li a {
   border-radius: 8px; /* Arredondamento de borda*/
 
   backdrop-filter: blur(4px);
+
+  text-decoration: none; /*Retira o sublinhado do link*/
+  font-weight: 500;
 }
