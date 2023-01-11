@@ -32,6 +32,9 @@ div#container {
   - Ele pega a 3ª propriedade para Bottom (Baixo) */
   /* margin/padding: x x x x 
   Ele pega as 4 propriedades, na ordem como o relógio: Top, Right, Botton e Left*/
+  padding: 0 24px;
+  /*- Ele pega a 1ª propriedade para Top (Cima) e Buttom
+  - Ele pega a 2ª propriedade para Right e Left (Direita e Esquerda) */
 }
 
 #profile {
@@ -81,7 +84,7 @@ ul li a {
 }
 
 /* pseudo-selector */
-ul li a:hover {
+ul li a:hover { /*Ao passar o mouse por cima*/
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
 }
