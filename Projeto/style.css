@@ -93,7 +93,7 @@ ul li a:hover { /*Ao passar o mouse por cima*/
 /* social links*/
 div#social-links {
   display: flex;
-  justify-content: center; /*Justificar conteúdo ao meio*/
+  justify-content: center; /* Justificar/alinhar conteúdo ao meio */
   gap: 32px;
 
   padding: 24px 0;
