@@ -94,11 +94,22 @@ ul li a:hover { /*Ao passar o mouse por cima*/
 div#social-links {
   display: flex;
   justify-content: center; /* Justificar/alinhar conteúdo ao meio */
-  gap: 32px;
 
   padding: 24px 0;
   
   font-size: 24px; /*Tamanho da fonte*/
-  
+}
 
+div#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center; /*Centraliza o conteúdo na horinzontal*/
+  padding: 16px;
+
+  transition: background 0.5s;
+  border-radius: 50%;
+}
+/*Ao passar o mouse por cima*/
+div#social-links a:hover { 
+  background: rgba(255, 255, 255, 0.2);
 }
