@@ -8,9 +8,22 @@ Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
   box-sizing: border-box; /*Medida do tamanho da caixa. Sendo medida a partir da borda*/
 }
 
+/*Raíz - Definindo variáveis*/
+:root {
+  --text-color: white; /*--text-color é uma variável com cor branca*/
+  --bg-url: url(./assets/bg-mobile.jpg)
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg)
+}
+
 body {
   /* background: color image repeat position/size */
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+  /*Antes
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
+  background: var(--bg-url) no-repeat top center/cover
   /* OU
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -20,7 +33,7 @@ body {
 /* *(Asterístico) -> Seletor universal. Vai aplicar para todos os elementos dentro do body*/
 Body * {
   font-family: "Inter", sans-serif;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 div#container {
@@ -87,7 +100,7 @@ ul li a {
 /* pseudo-selector */
 ul li a:hover { /*Ao passar o mouse por cima*/
   background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
 }
 
 /* social links*/
