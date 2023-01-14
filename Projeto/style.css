@@ -80,8 +80,10 @@ div#container {
 
 /* Switch*/
 #switch {
-  Border: 1px solid red;
   position: relative;
+  width: 64px;
+
+  margin: 4px auto; /*4px baixo e cima e auto dos lados*/
 }
 
 #switch button {
@@ -92,8 +94,10 @@ div#container {
   border-radius: 50%;
 
   position: absolute;
+  top: 50%;
   right: 0;
   z-index: 1;
+  transform: translateY(-50%);
 }
 
 #switch span {
