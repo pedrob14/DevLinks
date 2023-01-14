@@ -16,6 +16,7 @@ Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -24,7 +25,8 @@ Realizando o reset do CSS. Retira os alinhamentos padrões do navegador*/
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1)
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 
 body {
@@ -57,6 +59,7 @@ div#container {
   - Ele pega a 2ª propriedade para Right e Left (Direita e Esquerda) */
 }
 
+/* Profile */
 #profile {
   text-align: center;
   padding: 24px;
@@ -73,6 +76,15 @@ div#container {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
+}
+
+/* Switch*/
+#switch button{
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
 }
 
 /* links - lista */
