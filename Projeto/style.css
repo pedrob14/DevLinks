@@ -33,7 +33,7 @@ body {
   /* background: color image repeat position/size */
   /*Antes
   background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;*/
-  background: var(--bg-url) no-repeat top center/cover
+  background: var(--bg-url) no-repeat top center/cover;
   /* OU
   background-image: url(./assets/bg-mobile.jpg);
   background-repeat: no-repeat;
@@ -79,7 +79,7 @@ div#container {
 }
 
 /* Switch*/
-#switch button{
+#switch button {
   width: 32px;
   height: 32px;
   background: white var(--switch-bg-url) no-repeat center;
@@ -87,6 +87,16 @@ div#container {
   border-radius: 50%;
 }
 
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
 /* links - lista */
 ul {
   list-style: none;
@@ -110,7 +120,7 @@ ul li a {
   border-radius: 8px; /* Arredondamento de borda*/
 
   backdrop-filter: blur(4px); /* Borramento */
-
+  -webkit-backdrop-filter: blur(4px);
   text-decoration: none; /*Retira o sublinhado do link*/
   font-weight: 500;
 
@@ -118,7 +128,8 @@ ul li a {
 }
 
 /* pseudo-selector */
-ul li a:hover { /*Ao passar o mouse por cima*/
+ul li a:hover {
+  /*Ao passar o mouse por cima*/
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
 }
@@ -129,7 +140,7 @@ div#social-links {
   justify-content: center; /* Justificar/alinhar conteúdo ao meio */
 
   padding: 24px 0;
-  
+
   font-size: 24px; /*Tamanho da fonte*/
 }
 
@@ -143,7 +154,7 @@ div#social-links a {
   border-radius: 50%;
 }
 /*Ao passar o mouse por cima*/
-div#social-links a:hover { 
+div#social-links a:hover {
   background: var(--highlight-color);
 }
 
