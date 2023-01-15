@@ -1,0 +1,8 @@
+- **Javascript**
+    - Algoritmos, Lógica de programação e Sintaxe
+    - Introdução ao JavaScript
+    - Variávies e Tipos de dados
+    - Funções
+    - Objetos
+    - Adicionando lógica e condicional ao projeto
+    - Atualizando atributos HTML com JavaScript
