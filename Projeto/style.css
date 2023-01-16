@@ -47,7 +47,8 @@ Body * {
 }
 
 div#container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   /*- Ele pega a 1ª propriedade para Top (Cima)
   - Ele pega a 2ª propriedade para Right e Left (Direita e Esquerda)
