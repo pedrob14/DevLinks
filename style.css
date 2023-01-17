@@ -39,6 +39,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover; */
+  height: 100vh;
 }
 /* *(Asterístico) -> Seletor universal. Vai aplicar para todos os elementos dentro do body*/
 Body * {
@@ -47,8 +48,8 @@ Body * {
 }
 
 div#container {
-  width: 100%;
-  max-width: 588px;
+  width: 100%; /*Tamanho total de 100% da largura da página*/
+  max-width: 588px; /*Porém, até atingir 588px da largura */
   margin: 56px auto 0px;
   /*- Ele pega a 1ª propriedade para Top (Cima)
   - Ele pega a 2ª propriedade para Right e Left (Direita e Esquerda)
@@ -184,3 +185,12 @@ footer {
 }
 
 /* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg)
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg)
+  }
+}
