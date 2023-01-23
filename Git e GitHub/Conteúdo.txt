@@ -1,0 +1,10 @@
+- Git e Github
+    - Introdução ao Git
+    - Iniciando git no projeto e criando o primeiro commit
+    - Adicionando projeto ao Github
+    - Adicionando o Readme do projeto
+    - Evoluindo o projeto para outros dispositivos
+    - mudando CSS com media queries
+    - Animações com CSS
+    - Criando o link para compartilhar o projeto com as pessoas
+    - O próximo passo da sua jornada
